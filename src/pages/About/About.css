@@ -1,0 +1,53 @@
+.section_title {
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+}
+.section_title > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+.section_title span {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
+}
+.section_p {
+  color: darkslategray;
+  font-size: 16px !important;
+  line-height: 30px !important;
+  white-space: pre-line;
+}
+.skills {
+  height: 100%;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 2px 92px 0px rgba(70, 70, 70, 0.13);
+  -moz-box-shadow: 0px 2px 92px 0px rgba(70, 70, 70, 0.13);
+  margin: 1.2rem;
+  padding: 0.6rem;
+}
+.skills .skills_title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.skills .skills_description {
+  color: #989898;
+  border-color: var(--main-color);
+  margin: 10px 5px;
+  text-align: center;
+}
+.skills_icon > .MuiSvgIcon-root {
+  font-size: 46px;
+  margin-left: 0;
+  font-weight: 300;
+  color: darkslategray;
+}
